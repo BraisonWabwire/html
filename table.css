@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table-container{
+    padding: 50px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 900px;
+    font-size: 0.95em;
+}
+.table-container thead tr{
+    background-color: #40c788;
+    color: white;
+    text-align: left;
+    border: none;
+    font-weight: bold;
+}
+.table-container th, .table-container td{
+    padding: 12px 15px;
+}
+.table-container tbody tr{
+    border-bottom: 1px solid #dddd;
+}
+.table-container tbody tr :nth-of-type(even){
+    background-color: #f3f3f3;
+}
